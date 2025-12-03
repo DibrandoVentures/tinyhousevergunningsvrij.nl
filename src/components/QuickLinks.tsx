@@ -1,35 +1,35 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { FileCheck, Shield, Home, Key, ListChecks, ChevronRight } from "lucide-react";
+import { FileCheck, Scale, Home, Truck, ListChecks, ChevronRight } from "lucide-react";
 
 const quickLinks = [
   {
     icon: FileCheck,
-    title: "Wat wil de verzekeraar weten?",
-    subtitle: "Eisen rond bouw, locatie en gebruik van je tiny house.",
-    targetId: "acceptatie",
+    title: "Wanneer vergunningsvrij?",
+    subtitle: "Voorwaarden voor ligging, hoogte en oppervlakte.",
+    targetId: "voorwaarden",
   },
   {
-    icon: Shield,
-    title: "Welke verzekeringen heb ik nodig?",
-    subtitle: "Opstal, inboedel en aansprakelijkheid voor tiny houses.",
-    targetId: "verzekeringen",
-  },
-  {
-    icon: Home,
-    title: "Eigen grond of op wielen?",
-    subtitle: "Verschil in dekking tussen vaste plek en tiny house op wielen.",
+    icon: Scale,
+    title: "Bijgebouw vs. hoofdwoning",
+    subtitle: "Juridische status bepaalt of vergunning nodig is.",
     targetId: "vergelijking",
   },
   {
-    icon: Key,
-    title: "Verhuur & Airbnb",
-    subtitle: "Waar je op moet letten als je (deels) verhuurt.",
-    targetId: "verhuur",
+    icon: Truck,
+    title: "Tiny house op wielen",
+    subtitle: "Wielen zijn geen vrijbrief voor vergunningsvrij.",
+    targetId: "wielen",
+  },
+  {
+    icon: Home,
+    title: "Voorbeelden",
+    subtitle: "Wel en niet vergunningsvrij uitgelegd.",
+    targetId: "voorbeelden",
   },
   {
     icon: ListChecks,
     title: "Stappenplan",
-    subtitle: "In 5 stappen je tiny house goed verzekerd.",
+    subtitle: "In 5 stappen jouw situatie checken.",
     targetId: "stappenplan",
   },
 ];
