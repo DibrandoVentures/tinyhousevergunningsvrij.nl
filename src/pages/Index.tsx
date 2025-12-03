@@ -11,21 +11,25 @@ import Footer from "@/components/Footer";
 import ImageTextSection from "@/components/ImageTextSection";
 import WheelsImageSection from "@/components/WheelsImageSection";
 import DeckImageSection from "@/components/DeckImageSection";
+
 const Index = () => {
-  return <div className="min-h-screen bg-background">
+  return (
+    <div className="min-h-screen bg-background">
       <Navigation />
       <Hero />
       <QuickLinks />
       <ImageTextSection />
       <AdditionalSections />
+      <ComparisonSection />
       <InsuranceCards />
       <WheelsImageSection />
-      <ComparisonSection />
       <SafetySection />
       <DeckImageSection />
       <StepPlan />
       <FAQ />
       <Footer className="bg-slate-50" />
-    </div>;
+    </div>
+  );
 };
+
 export default Index;
