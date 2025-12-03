@@ -13,8 +13,12 @@ const ImageTextSection = () => {
             />
           </div>
           <div className="order-2 md:order-2">
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              Een tiny house is vaak compacter en uniek gebouwd. Het vraagt om een verzekering die past bij deze bijzondere woonvorm, met aandacht voor materiaal, locatie en gebruik.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+              <strong>Tip:</strong> oriënteer je eerst goed op het soort tiny house dat bij je past. Op{" "}
+              <a href="https://tinyhousescompleet.nl" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">
+                tinyhousescompleet.nl
+              </a>{" "}
+              vind je meer over types, bouw en prijzen.
             </p>
           </div>
         </div>
